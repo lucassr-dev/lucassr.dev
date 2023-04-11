@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: willianjusten/willianjusten.com.br
-  base_url: https://willianjusten.com.br/
+  repo: lucassr-dev/lucassr.dev
+  base_url: https://www.lucassr.dev/
   auth_endpoint: api/auth/ # Essa rota vai ser muito importante mais para frente
 
 media_folder: public/assets/img
