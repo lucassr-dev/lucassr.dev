@@ -150,32 +150,37 @@ const NavBar = () => {
 
       <nav className=' flex items-center justify-center flex-wrap mt-2'>
         <motion.a href="https://twitter.com/lucassr-dev" target={"_blank"}
+        rel="noopener noreferrer" aria-label="Link para o perfil do LucasSR no Twitter" 
         whileHover={{ y:-2 }}
         whileTap={{scale:0.9}}
-        className=' w-6 mr-3 sm:mx-1'
+        className='social-link twitter-link w-6 mr-3 sm:mx-1'
         >
           <TwitterIcon />
         </motion.a>
-        <motion.a href="https://github.com/lucassr-dev" target={"_blank"}
-        className=' w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1'
+        <motion.a href="https://github.com/lucassr-dev" target={"_blank"} 
+        className='social-link github-link w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1'
+        rel="noopener noreferrer" aria-label="Link para o perfil do LucasSR no Github"
         whileHover={{ y:-2 }}
         whileTap={{scale:0.9}}
         >
           <GithubIcon />
         </motion.a>
-        <motion.a href="https://www.linkedin.com/in/lucassrjob/" target={"_blank"} className=' w-6 mx-3 sm:mx-1'
+        <motion.a href="https://www.linkedin.com/in/lucassrjob/" target={"_blank"} className='social-link linkedin-link w-6 mx-3 sm:mx-1'
+        rel="noopener noreferrer" aria-label="Link para o perfil do LucasSR no Linkedin"
         whileHover={{ y:-2 }}
         whileTap={{scale:0.9}}
         >
           <LinkedInIcon />
         </motion.a>
-        <motion.a href="https://pinterest.com/lucassrdev/" target={"_blank"} className=' w-6 mx-3 bg-light rounded-full sm:mx-1'
+        <motion.a href="https://pinterest.com/lucassrdev/" target={"_blank"} className='social-link pinterest-link w-6 mx-3 bg-light rounded-full sm:mx-1'
+        rel="noopener noreferrer" aria-label="Link para o perfil do LucasSR no Pinterest"
         whileHover={{ y:-2 }}
         whileTap={{scale:0.9}}
         >
           <PinterestIcon />
         </motion.a>
-        <motion.a href="https://dribbble.com/lucassr-dev" target={"_blank"} className=' w-6 ml-3 sm:mx-1'
+        <motion.a href="https://dribbble.com/lucassr-dev" target={"_blank"} className='social-link dribble-link w-6 ml-3 sm:mx-1'
+        rel="noopener noreferrer" aria-label="Link para o perfil do LucasSR no Dribbble"
         whileHover={{ y:-2 }}
         whileTap={{scale:0.9}}
         >
