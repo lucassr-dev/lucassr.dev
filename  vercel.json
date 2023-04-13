@@ -1,3 +1,9 @@
 {
-  "trailingSlash": true
+  "trailingSlash": true,
+  "builds": [
+    { "src": "package.json", "use": "build-cms" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "index.html" }
+  ]
 }
