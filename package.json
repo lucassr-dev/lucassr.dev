@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build-cms": "next build --legacy-peer-deps netlify-cms-app @openlab/vercel-netlify-cms-github"
   },
   "dependencies": {
     "@openlab/vercel-netlify-cms-github": "^1.1.1",
