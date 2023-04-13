@@ -6,9 +6,6 @@ import { Montserrat } from "next/font/google"
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import '../styles/fonts.css'
-import CMS from 'netlify-cms-app';
-import { useEffect } from 'react'
-
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -18,10 +15,6 @@ const montserrat = Montserrat({
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
-
-  useEffect(() => { 
-    CMS.init();
-  }, []);
   return (
 
     <>
