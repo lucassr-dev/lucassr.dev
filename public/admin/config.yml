@@ -2,7 +2,7 @@ backend:
   name: github
   repo: lucassr-dev/lucassr.dev
   base_url: https://lucassr.dev/
-  auth_endpoint: api/auth/ # Essa rota vai ser muito importante mais para frente
+  auth_endpoint: src/pages/api/auth # Essa rota vai ser muito importante mais para frente
 
 media_folder: public/images/articles
 public_folder: /images/articles
