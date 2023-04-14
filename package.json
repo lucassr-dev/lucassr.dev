@@ -9,15 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@openlab/vercel-netlify-cms-github": "^1.1.1",
+    "@react-three/drei": "^9.65.3",
+    "@react-three/fiber": "^8.12.0",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
-    "framer-motion": "^10.6.0",
-    "netlify-cms-app": "^2.15.72",
+    "framer-motion": "^10.11.6",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sharp": "^0.32.0"
+    "sharp": "^0.32.0",
+    "three": "^0.151.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
