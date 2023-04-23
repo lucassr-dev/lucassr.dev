@@ -8,6 +8,8 @@ import { LinkArrow } from '@/components/Icons'
 import ContrateMe from '@/components/ContrateMe'
 import lightBuld from "../../public/images/svgs/miscellaneous_icons_1.svg"
 import TransitionEffect from '@/components/TransitionEffect'
+
+
 export default function Home() {
   return (
     <>
