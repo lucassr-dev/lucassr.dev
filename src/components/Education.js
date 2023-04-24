@@ -5,7 +5,7 @@ import LiIcon from './LiIcon'
 const Details = ({ type, time, place, info }) => {
   const ref = useRef(null);
   return (
-    <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between
+    <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between
     md:w-[80%]
     '>
 
@@ -61,17 +61,10 @@ const Education = () => {
             />
 
 <Details
-              type="Ensino Médio Concluído"              
-              time="2009 - 2012"
-              place="Centro Educacional 01 do Cruzeiro"
-              info="Ensino médio concluido em Brasília-DF sempre em escola publica"
-            />
-
-<Details
-              type="Ensino Médio Concluído"              
-              time="2009 - 2012"
-              place="Centro Educacional 01 do Cruzeiro"
-              info="Ensino médio concluido em Brasília-DF sempre em escola publica"
+              type="Ensino Superior"              
+              time="2021 - 2023"
+              place="Estácio de Sá"
+              info="Curso de Análise e Desenvolvimento de Sistemas - EAD"
             />
 
             

@@ -60,54 +60,54 @@ const Experience = () => {
               companyLink="https://sotel.ind.br/"
               time="2020 - 2022"
               address="Brasília, Distrito Federal"
-              work="- Emissão de Notas Fiscais dos serviços prestados pela empresa;
-            - Elaboração de controles de recebimentos e pagamentos gerais;
-            - Responsável por orçamento e compra de material;
-            - Atendimento e agendamento de clientes;
-            - Criação de pedidos dos clientes;
-            - Gestão administrativa, financeira e pessoal."
+              work="- Emissão de notas fiscais de venda.
+              - Entrada de notas fiscais de compra.
+              - Contas a pagar e contas a receber, com alimentação de planilhas e por sistema ERP Software Clipp Pro.
+              - Responsável por orçamento e compra de material;
+              - Atendimento e agendamento de clientes;
+              - Vendas de balcão
+              - Criação de pedidos internos."
             />
 
             <Details
               position="Auxiliar Administrativo"
-              company="Sotel"
-              companyLink="https://sotel.ind.br/"
-              time="2020 - 2022"
+              company="AlarmeShow"
+              companyLink="https://alarmeshow.bsb.br/"
+              time="2017 - 2019"
               address="Brasília, Distrito Federal"
-              work="- Emissão de Notas Fiscais dos serviços prestados pela empresa;
-            - Elaboração de controles de recebimentos e pagamentos gerais;
-            - Responsável por orçamento e compra de material;
-            - Atendimento e agendamento de clientes;
-            - Criação de pedidos dos clientes;
-            - Gestão administrativa, financeira e pessoal."
+              work="- Pagamento de fornecedores e funcionários;
+              - Controle de ponto.
+              - Entrada e saída de notas fiscais.
+              - Emissão de recibos e pedidos internos.
+              - Responsável por orçamento e compra de material;
+              - Atendimento e agendamento de clientes;
+              - Gestão financeira e pessoal, através de planilhas e sistema ERP MAQPLAN."
+            />
+
+            <Details
+              position="Fiscal de prevenção de Perdas"
+              company="GPA"
+              companyLink="https://www.gpabr.com/pt/"
+              time="2014 - 2016"
+              address="Brasília, Distrito Federal"
+              work="- Implementação de uma Política de Prevenção de Perdas na organização;
+              - Identificação e avaliação das situações, atividades e processos com potencial de gerar perdas;
+              - Identificação e avaliação de riscos de perdas;
+              - Prevenir e combater desperdícios, fraudes e furtos;
+              - Reduzir e eliminar gastos desnecessários;
+              - Aumentar e potencializar a margem de lucros da empresa."
             />
 
             <Details
               position="Auxiliar Administrativo"
-              company="Sotel"
-              companyLink="https://sotel.ind.br/"
-              time="2020 - 2022"
+              company="Codevasf"
+              companyLink="https://www.codevasf.gov.br/"
+              time="2010 - 2012"
               address="Brasília, Distrito Federal"
-              work="- Emissão de Notas Fiscais dos serviços prestados pela empresa;
-            - Elaboração de controles de recebimentos e pagamentos gerais;
-            - Responsável por orçamento e compra de material;
-            - Atendimento e agendamento de clientes;
-            - Criação de pedidos dos clientes;
-            - Gestão administrativa, financeira e pessoal."
-            />
-
-            <Details
-              position="Auxiliar Administrativo"
-              company="Sotel"
-              companyLink="https://sotel.ind.br/"
-              time="2020 - 2022"
-              address="Brasília, Distrito Federal"
-              work="- Emissão de Notas Fiscais dos serviços prestados pela empresa;
-            - Elaboração de controles de recebimentos e pagamentos gerais;
-            - Responsável por orçamento e compra de material;
-            - Atendimento e agendamento de clientes;
-            - Criação de pedidos dos clientes;
-            - Gestão administrativa, financeira e pessoal."
+              work="- Controle de correspondências e documentações;
+              - Atendimento e agendamento de clientes;
+              - Responsável por orçamento e compra de material;
+              - Gestão administrativa, financeira e pessoal."
             />
           </ul>
         </div>

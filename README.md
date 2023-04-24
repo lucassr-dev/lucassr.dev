@@ -4,7 +4,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/lucassr-dev/lucassr.dev?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
 ![Github Followers](https://img.shields.io/github/followers/lucassr-dev.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
 
-Este repositório contém o código do meu Portfolio criado usando NextJs. <br />
+Este repositório contém o código do meu Portfolio criado usando NextJs e Tailwind CSS <br />
 
 Resultado Online👇: <br />
 [Nextjs Portfolio Website](https://www.lucassr.dev/) <br />

@@ -5,7 +5,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import projeto1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import projeto1 from '../../public/images/projects/upinside.png'
+import projeto2 from '../../public/images/projects/onebitlife.png'
+import projeto3 from '../../public/images/projects/rocketpay.png'
+import projeto4 from '../../public/images/projects/youtube-masterclass.png'
+
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -106,80 +110,77 @@ const projetos = () => {
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
             <div className='col-span-12'>
               <FeatureProject
-                title="Crypto Screener Application"
+                title="HTML5 e CSS3 Essentials da UpInside"
                 img={projeto1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                  It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                  local currency."
-                link="/"
-                github="/"
+                summary="Este é um site desenvolvido com HTML5 e CSS3 e um pouco 
+                de Javascript utilizando as melhores práticas e semânticas, com otimização para SEO."
+                link="https://html5-css3-essentials-upinside.vercel.app/"
+                github="https://github.com/lucassr-dev/html5-css3-essentials-upinside"
                 type="Projeto em Destaque"
 
               />
             </div>
             <div className='col-span-6 sm:col-span-12'>
             <Project
-                title="Crypto Screener Application"
-                img={projeto1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                  It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                  local currency."
-                link="/"
-                github="/"
-                type="Projeto em Destaque"
+                title="Aplicativo OneBitLife"
+                img={projeto2}
+                summary="O aplicativo OneBitLife é um projeto desenvolvido durante 
+                a Semana Mobile do OneBitCode. O objetivo dele é fazer um gerenciamento de tarefas,
+                que ajudam o usuário a fixar hábitos melhores e mais saudáveis em sua vida."
+                link="https://github.com/lucassr-dev/onebitlife"
+                github="https://github.com/lucassr-dev/onebitlife"
+                type="Projeto"
 
               />
             </div>
             <div className='col-span-6 sm:col-span-12'>
             <Project
-                title="Crypto Screener Application"
-                img={projeto1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                  It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                  local currency."
-                link="/"
-                github="/"
-                type="Projeto em Destaque"
+                title="Componente RocketPay"
+                img={projeto3}
+                summary="O Rocketpay é um componente que simula o formulário de preenchimento de cartão de crédito, 
+                onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM.."
+                link="https://explorer-lab-01-alves538.vercel.app/"
+                github="https://github.com/lucassr-dev/explorer-lab"
+                type="Projeto"
 
               />
             </div>
 
             <div className='col-span-12'>
             <FeatureProject
-                title="Crypto Screener Application"
+                title="HTML5 e CSS3 Essentials da UpInside"
                 img={projeto1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                  It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                  local currency."
-                link="/"
-                github="/"
+                summary="Este é um site desenvolvido com HTML5 e CSS3 e um pouco 
+                de Javascript utilizando as melhores práticas e semânticas, com otimização para SEO."
+                link="https://html5-css3-essentials-upinside.vercel.app/"
+                github="https://github.com/lucassr-dev/html5-css3-essentials-upinside"
                 type="Projeto em Destaque"
 
               />
             </div>
             <div className='col-span-6 sm:col-span-12'>
             <Project
-                title="Crypto Screener Application"
-                img={projeto1}
+                title="API HTTP - Guarda URL"
+                img={projeto4}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                   It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                   local currency."
-                link="/"
-                github="/"
-                type="Projeto em Destaque"
+                link="http://youtube-masterclass-node-http.vercel.app/"
+                github="https://github.com/lucassr-dev/youtube-masterclass-node-http"
+                type="Projeto"
 
               />
             </div>
             <div className='col-span-6 sm:col-span-12'>
             <Project
                 title="Crypto Screener Application"
-                img={projeto1}
+                img={projeto3}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                   It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                   local currency."
                 link="/"
                 github="/"
-                type="Projeto em Destaque"
+                type="Projeto"
 
               />
             </div>
