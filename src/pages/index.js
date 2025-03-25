@@ -26,16 +26,16 @@ export default function Home() {
               sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               50vw"
-              />            
+              />
             </div>
-            <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>              
+            <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
               <AnimatedText text="Transformando sonhos em realidade através da programação." delay={700} className='!text-6xl !text-left
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl
               '/>
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
               Como um habilidoso desenvolvedor full-stack, dedico-me a
-              transformar ideias em aplicações web inovadoras. 
-              Explore meus projetos e artigos mais recentes, 
+              transformar ideias em aplicações web inovadoras.
+              Explore meus projetos e artigos mais recentes,
               mostrando minha experiência em React.js e desenvolvimento web.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>

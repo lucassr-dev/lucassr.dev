@@ -39,7 +39,7 @@ const sobre = () => {
   return (
     <>
       <Head>
-        <title>Lucassr-Dev | Sobre-me</title>
+        <title>Lucassr-dev | Sobre-me</title>
         <meta name="description" content="Lucassr-dev Portifolio, web developer, front-end" />
       </Head>
       <TransitionEffect />

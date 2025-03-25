@@ -38,18 +38,18 @@ const Skills = () => {
         >
           Web
         </motion.div>
-        <Habilidade name="HTML" x="-20vw" y="2vw" />
+        <Habilidade name="HTML5" x="-20vw" y="2vw" />
         <Habilidade name="MySQL" x="-35vw" y="-2vw" />
-        <Habilidade name="CSS" x="-5vw" y="-10vw" />
+        <Habilidade name="CSS3" x="-5vw" y="-10vw" />
         <Habilidade name="Javascript" x="20vw" y="6vw" />
-        <Habilidade name="ReactJS" x="0vw" y="12vw" />
-        <Habilidade name="NextJS" x="-20vw" y="-15vw" />
-        <Habilidade name="Vercel" x="15vw" y="-12vw" />
-        <Habilidade name="Web Design" x="32vw" y="-5vw" />
+        <Habilidade name="React.JS" x="0vw" y="12vw" />
+        <Habilidade name="Next.JS" x="-20vw" y="-15vw" />
+        <Habilidade name="AWS" x="15vw" y="-12vw" />
+        <Habilidade name="Vue.JS" x="32vw" y="-5vw" />
         <Habilidade name="Github" x="0vw" y="-20vw" />
         <Habilidade name="PHP" x="-25vw" y="18vw" />
         <Habilidade name="Tailwind CSS" x="18vw" y="18vw" />
-        <Habilidade name="NodeJS" x="0vw" y="22vw" />
+        <Habilidade name="Node.JS" x="0vw" y="22vw" />
 
 
       </div>

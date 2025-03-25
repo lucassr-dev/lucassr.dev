@@ -6,7 +6,8 @@ import { Montserrat } from "next/font/google"
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import '../styles/fonts.css'
-import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import StarsCanvas from '@/components/StarBackground'
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -23,14 +24,19 @@ export default function App({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen`}>
+      <main className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen relative`}>
+        <StarsCanvas
+        starCount={1000}
+        starColor={[255, 255, 255]}
+        speedFactor={0.05}
+        backgroundColor="black"
+        />
         <NavBar />
         <AnimatePresence mode="wait">
         <Component key={router.asPath} {...pageProps} />
-        <Analytics />
+        <SpeedInsights/>
         </AnimatePresence>
         <Footer />
-        
       </main>
     </>
   )
