@@ -5,12 +5,12 @@ import { AnimatePresence } from 'framer-motion'
 import { Montserrat } from "next/font/google"
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-import '../styles/fonts.css'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import StarsCanvas from '@/components/StarBackground'
 
 const montserrat = Montserrat({
   subsets: ["latin"],
+  weight: ['400', '500', '600', '700'], // Adicione todos os pesos necessários
   variable: "--font-mont",
   display: "swap"
 })
@@ -34,8 +34,8 @@ export default function App({ Component, pageProps }) {
         <NavBar />
         <AnimatePresence mode="wait">
         <Component key={router.asPath} {...pageProps} />
-        <SpeedInsights/>
         </AnimatePresence>
+        <SpeedInsights/>
         <Footer />
       </main>
     </>
