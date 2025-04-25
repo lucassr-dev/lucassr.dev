@@ -2,7 +2,8 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/lucassr-dev/lucassr.dev?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
 ![GitHub forks](https://img.shields.io/github/forks/lucassr-dev/lucassr.dev?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/lucassr-dev.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
+![Github Followers](https://img.shields.io/github/followers/lucassr-dev.svg?style=social&label=Follow)&nbsp;&nbsp;
+<a href="https://www.servbay.com" target="_blank"> <img  src="https://github.com/lucassr-dev/lucassr.dev/blob/main/website%20images/icon%20blue.svg" height="35" width="35" alt="servbay" ></img></a>
 
 Este repositório contém o código do meu Portfolio criado usando NextJs e Tailwind CSS <br />
 
@@ -30,6 +31,7 @@ https://youtu.be/Yw7yWHigGKI <br />
 - Fontes de https://fonts.google.com/ <br />
 - Icones de https://iconify.design/ <br />
 - LightBulb Svg de https://lukaszadam.com/illustrations <br />
+- Ferramenta de gerenciamento de ambiente de desenvolvimento https://www.servbay.com <br />
 
 ### Bibliotecas externas usadas neste projeto:
 
