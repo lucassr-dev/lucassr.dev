@@ -31,11 +31,15 @@ https://youtu.be/Yw7yWHigGKI <br />
 - Fontes de https://fonts.google.com/ <br />
 - Icones de https://iconify.design/ <br />
 - LightBulb Svg de https://lukaszadam.com/illustrations <br />
-- Ferramenta de gerenciamento de ambiente de desenvolvimento https://www.servbay.com <br />
 
 ### Bibliotecas externas usadas neste projeto:
 
 - [framer-motion](https://www.framer.com/motion/) <br />
 - [Tailwind css](https://tailwindcss.com/) <br />
+
+### Powered by ServBay
+- Ferramenta de gerenciamento de ambiente de desenvolvimento https://www.servbay.com <br />
+<a href="https://www.servbay.com" target="_blank"> <img  src="https://github.com/lucassr-dev/lucassr.dev/blob/main/website%20images/icon%20blue.svg" height="35" width="35" alt="servbay" ></img></a>
+
 
 
